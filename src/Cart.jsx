@@ -7,12 +7,12 @@ import CountButton from "../CountButton";
 
 export default function Cart() {
   const [count, setCount] = useState(0);
-  const locked = count === 5 ? true : false;
+  const locked = count === 5000 ? true : false;
 
   useEffect(() => {
     const handleKeydown = (event) => {
       if (event.code === "Space") {
-        if (count >= 5) {
+        if (count >= 5000) {
           setCount(count);
         } else {
           setCount(count + 1);
