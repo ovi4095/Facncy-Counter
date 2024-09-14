@@ -3,7 +3,7 @@ import Count from "./Count";
 import ButtonContainer from "./ButtonContainer";
 import ResetButton from "./ResetButton";
 import Title from "./Title";
-import CountButton from "../CountButton";
+import CountButton from "./CountButton";
 
 export default function Cart() {
   const [count, setCount] = useState(0);
